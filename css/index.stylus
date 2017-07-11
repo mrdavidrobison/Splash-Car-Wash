@@ -1,13 +1,7 @@
 @font-face { 
   font-family Brandon Grotesque (Medium)
-  src url('BGREG.otf') 
+  src url('Brandon_med.otf') 
 } 
-
-@font-face { 
-  font-family Brandon Grotesque (Medium)
-  font-weight bold 
-  src url('BGBOLD.otf')
-}
 
 .white-nav-linkvisited
   color #004990
