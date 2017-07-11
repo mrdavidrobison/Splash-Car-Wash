@@ -1,0 +1,269 @@
+/*
+Theme Name: Visual Composer Starter
+Theme URI: http://visualcomposer.io
+Author: Michael M - WPBakery
+Author URI: http://visualcomposer.io
+Description: Visual Composer Starter theme designed to be a perfect companion for a simple and good looking website.
+Version: 1.1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: starter, custom menu, minimalistic, responsive, basic, business, blog, one-column, comments, light, two-columns, white, sandwich menu, theme-options, full-width, boxed, left-sidebar, right-sidebar, sticky-post, translation-ready, custom-background, blue, visual-composer, featured-image, no-sidebar, editor-style, flexible-header, custom-header
+Text Domain: visual-composer-starter
+*/
+
+/*
+* Milk*
+* www.milksono.com
+*/
+
+/*
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html, body {
+  margin: 0;
+  padding: 0;
+  height:100%
+}
+
+
+#splash-desktop-menu-blue {
+  margin: 0;
+  padding: 0;
+  height:55px;
+  width: 100%;
+  background-color: #004990;
+  display: inline-block;
+  position: relative;
+  z-index: 999;
+}
+
+input#subscribe {
+  width: 100%;
+	min-width: 100px;
+	height: 0px;
+	background-color: #0073cf;
+	color: #fff;
+	border: none;
+	display: run-in;
+}
+
+#email-subscribe-input {
+  display: inline-block;
+}
+
+#splash-desktop-menu-white {
+  margin: 0;
+  padding: 0;
+  height:150px;
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  display: inline-block;
+  z-index: 998;
+  top:-10px;
+}
+
+.white-nav-link {
+  font-size:2em;
+  line-height:;
+  float:left;
+  text-decoration: none;
+  color: #004990;
+  font-family: "brandon-grotesque", sans-serif;
+  padding: 80px 20px 0 25px;
+  position: relative;
+  display: inline-block;
+}
+
+.white-nav-link:hover {
+  text-decoration: none;
+  color: #0073cf;
+}
+.white-nav-link:active {
+text-decoration: none;
+  color:#ed1c24;
+  font-weight:bolder;
+}
+
+.white-nav-link:visited {
+  text-decoration: none;
+  color: #ed1c24;
+  font-weight:bolder;
+}
+
+#splash-desktop-menu-fixed {
+  margin: 0;
+  padding: 0;
+  height:60px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  border-bottom: 1px solid #004990;
+  top:0px;
+  z-index: 800;
+
+}
+
+.fixed-nav-link {
+  font-size:2em;
+  line-height:;
+  text-decoration: none;
+  color: #004990;
+  font-family: "brandon-grotesque", sans-serif;
+  padding: 12px 0 0 0;
+  position: relative;
+  display: inline-block;
+}
+
+.fixed-nav-link:hover {
+  text-decoration: none;
+  color: #0073cf;
+}
+.fixed-nav-link:active {
+text-decoration: none;
+  color:#ed1c24;
+  font-weight:bolder;
+}
+.fixed-nav-link:visited {
+  text-decoration: none;
+  color: #ed1c24;
+}
+
+#splash-mobile-accordion {
+  width: 66px;
+  height: 68px;
+  float: right;
+  z-index: 666;
+  position: fixed;
+}
+
+#slash-logo-mobile {
+  width: auto;
+  height: 50px;
+  padding:0px 0 3px 0;
+  float:left;
+}
+
+.navbar-icon-wrapper {
+  width: 33.333333%;
+  height: 56px;
+  display: inline-block;
+}
+
+.navbar-icon {
+  padding: 0 0 5px 0;
+  height: 20px;
+  width: auto;
+  display: inline-block;
+}
+
+#footer-background {
+  width: 100%;
+  height: 100%;
+  background-image: url(http://splashcarwash.wpengine.com/wp-content/uploads/2017/03/footer-bg.png);
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+img.footer-social-icons {
+	padding: 15px 0 15px 0;
+	width: 20px;
+	height: auto;
+}
+
+.check{
+  vertical-align: middle;
+  height: 1;
+  width: auto;
+}
+
+/* FONTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.cookie {font-family: 'Cookie', cursive;}
+.cookie {font-family: 'Cookie', cursive;}
+.brandon {font-family: "brandon-grotesque", "futura", sans-serif;}
+.brandon {font-family: "brandon-grotesque", "futura", sans-serif;}
+
+#clean-car {
+  color: #fff;
+  font-size:2.6em;
+  font-family: "brandon-grotesque", sans-serif;
+  padding: 18px 0 0 0;
+  line-height:0;
+  display: inline-block;
+}
+
+#happy-life {
+  color: #fff;
+  font-size:3em;
+  font-family: 'Cookie', cursive;
+  line-height:0;
+  position: absolute;
+  padding: 20px 0 0 5px;
+  display: inline-block
+}
+
+a.splash-mobile-accordion-item {
+  align-content: center;
+  min-width: 350px;
+  color: #fff;
+  font-family: "brandon-grotesque", "futura", sans-serif;
+  font-size: 6vw;
+  text-decoration: none;
+  text-align: center;
+}
+
+li.footer-1 {
+	font-family: 'Cookie', cursive;
+	color:#004990;
+	font-size: 3em;
+
+}
+
+li.footer-2 {
+	font-family: "brandon-grotesque", "futura", sans-serif;
+	font-weight: bold;
+	color:#004990;
+	font-size: 1.6em;
+}
+
+ul.footer-ul {
+	list-style-type: none;
+	text-align: left;
+  color: #004990;
+}
+
+a.footer-li-link {
+	text-decoration: none;
+  color:#004990;
+}
+
+a.footer-li-link:hover {
+	color: #007ded;
+}
+
+li.mobile-footer-1 {
+	font-family: 'Cookie', cursive;
+	color:#004990;
+	font-size: 4em;
+  text-align: center;
+}
+
+li.mobile-footer-2 {
+	font-family: "brandon-grotesque", "futura", sans-serif;
+	font-weight: bold;
+	color:#004990;
+	font-size: 2em;
+  text-align: center;
+}
+
+ul.mobile-footer-ul {
+	list-style-type: none;
+	text-align: left;
+  text-align: center;
+  color: #004990;
+}
+
+.w3-hover-grayscale-min:hover {
+  filter:grayscale(40%);cursor:pointer;
+}
