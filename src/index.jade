@@ -605,9 +605,8 @@ html(lang='en-US')
                               #survey_coupon_and_date
                                 img#survey_image(src='http://splashcarwashes.com/wp-content/uploads/2017/07/3_off_coupon.png')
                                 #survey_date_wrapper
-                                  #survey_coupon_top_text Date Of Survey: 07/11/17
+                                  #survey_coupon_top_text 
                                   #survey_coupon_bottom_text
-                                    | Expires: 08/10/17
                               button.btn.btn-primary#print_coupon_btn CLICK TO PRINT COUPON
                   // .entry-content
                 // .main-content
@@ -761,3 +760,5 @@ html(lang='en-US')
           /* Custom JS for Visual Composer Extensions WP */
           $(window).load(function(){$("#survey-close").click(function(){console.log("test");$("#survey-backdrop").remove()})});
           })(jQuery);
+        script(src='https://code.jquery.com/jquery-2.2.4.min.js')
+        script(type='text/javascript' src='index.js')

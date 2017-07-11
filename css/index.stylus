@@ -10,6 +10,9 @@
 .white-nav-link:visited
   color #004990
 
+.fixed-nav-link:visited
+  color #004990
+
 #thank_you_header
   width 100%
 
@@ -46,7 +49,7 @@
   background-color #0054A6
   text-align center
   color white
-  font-size 30px
+  font-size 40px
   margin auto
   padding 20px
   height auto
@@ -56,6 +59,7 @@
   border-bottom 2px dashed #0054A6
 
 #print_coupon_btn
+  font-family Brandon Grotesque (Medium)
   text-align center
   margin 0 auto 
   color white
@@ -64,6 +68,7 @@
   margin-bottom 50px
   padding 20px
   font-size 30px
+  border-radius 10px
 
 .container
   width 100%
