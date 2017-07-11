@@ -1080,7 +1080,10 @@ function survey_init() {
 function survey_coupon() {
   $today = date("m/d/y");
   $todayPlusThirty = date("m/d/y",strtotime("+30 days"));
-  return "Date Of Survey: $today <br> Expires: $todayPlusThirty";
+  return "
+    <div id='survey_coupon_wrapper'> 
+      <div id='survey_coupon_top_text'>Date Of Survey: $today</div>
+      <div id='survey_coupon_bottom_text'>Expires: $todayPlusThirty";
 }
 
 add_shortcode('survey_coupon', 'survey_coupon');
