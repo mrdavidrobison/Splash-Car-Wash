@@ -46,7 +46,7 @@
   background-color #0054A6
   text-align center
   color white
-  font-size 25px
+  font-size 30px
   margin auto
   padding 20px
   height auto
@@ -60,7 +60,10 @@
   margin 0 auto 
   color white
   background-color #0054A6
-  height 50px
+  height 80px
+  margin-bottom 50px
+  padding 20px
+  font-size 30px
 
 .container
   width 100%
