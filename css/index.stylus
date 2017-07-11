@@ -28,6 +28,9 @@
   padding-top 30px
   padding-bottom 50px
 
+#survey_wrapper
+  text-align center
+
 #survey_coupon_and_date
   border 2px dashed #0054A6
   width 800px
@@ -41,9 +44,11 @@
 
 #survey_date_wrapper
   background-color #0054A6
+  text-align center
   color white
-  font-size 20px
+  font-size 25px
   margin auto
+  padding 20px
   height auto
   width 100%
   border-left 2px dashed #0054A6
