@@ -460,12 +460,6 @@ html(lang='en-US')
     link(rel='apple-touch-icon-precomposed', href='http://splashcarwashes.com/wp-content/uploads/2017/03/cropped-splash-site-icon-1-180x180.png')
     link(rel='stylesheet', href='index.css')
     meta(name='msapplication-TileImage', content='http://splashcarwashes.com/wp-content/uploads/2017/03/cropped-splash-site-icon-1-270x270.png')
-    style(type='text/css', data-type='vc_custom-css').
-      #coupon_image {
-      margin: auto;
-      width: 50%;
-      border: 2px dashed #0054A6;
-      }
     noscript
       style(type='text/css').
         .wpb_animate_when_almost_visible { opacity: 1; }
@@ -592,7 +586,7 @@ html(lang='en-US')
       //
         HEADER END
         ––––––––––––––––––––––––––––––––––––––––––––––––––
-    img#thank_you_header(src='http://splashcarwashes.com/wp-content/uploads/2017/07/thank_you_header.jpg')
+    img#thank_you_header(src='http://splashcarwashes.com/wp-content/uploads/2017/07/thank_you_header.jpg' mobile-src='http://splashcarwashes.com/wp-content/uploads/2017/07/thank_you_header_mobile.jpg')
     .container     
       .content-wrapper
         .row
@@ -607,12 +601,14 @@ html(lang='en-US')
                       .wpb_wrapper
                         .wpb_raw_code.wpb_content_element.wpb_raw_html
                           .wpb_wrapper
-                            #survey_coupon_wrapper
-                              #survey_date_wrapper
-                                #survey_coupon_top_text Date Of Survey: 07/11/17
-                                #survey_coupon_bottom_text
-                                  | Expires: 08/10/17
-                        button.btn.btn-primary#print_coupon_btn CLICK TO PRINT COUPON
+                            #survey_wrapper
+                              #survey_coupon_and_date
+                                img#survey_image(src='http://splashcarwashes.com/wp-content/uploads/2017/07/3_off_coupon.png')
+                                #survey_date_wrapper
+                                  #survey_coupon_top_text Date Of Survey: 07/11/17
+                                  #survey_coupon_bottom_text
+                                    | Expires: 08/10/17
+                              button.btn.btn-primary#print_coupon_btn CLICK TO PRINT COUPON
                   // .entry-content
                 // .main-content
               // .col-md-12

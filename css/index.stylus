@@ -3,7 +3,11 @@
   src url(Brandon_med.otf) 
 } 
 
-.white-nav-linkvisited
+@media (min-device-width:320px)
+  img[mobile-src]
+    content: attr(mobile-src, url)
+
+.white-nav-link:visited
   color #004990
 
 #thank_you_header
@@ -24,23 +28,31 @@
   padding-top 30px
   padding-bottom 50px
 
-#survey_coupon_wrapper 
-  background url('http://splashcarwashes.com/wp-content/uploads/2017/07/3_off_coupon.png')
+#survey_coupon_and_date
+  border 2px dashed #0054A6
+  width 800px
+  margin auto
+  margin-bottom 50px
+
+#survey_image
   background-size 100%
   background-repeat no-repeat
-  margin auto
-  height auto
-  padding-top 428px
-  width 50%
-  border 2px dashed #0054A6
+  height 500px
 
 #survey_date_wrapper
   background-color #0054A6
   color white
+  font-size 20px
+  margin auto
+  height auto
+  width 100%
+  border-left 2px dashed #0054A6
+  border-right 2px dashed #0054A6
+  border-bottom 2px dashed #0054A6
 
 #print_coupon_btn
-  float center
-  margin 0 auto
+  text-align center
+  margin 0 auto 
   color white
   background-color #0054A6
   height 50px
