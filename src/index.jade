@@ -587,17 +587,19 @@ html(lang='en-US')
     //
       NAV END
       ––––––––––––––––––––––––––––––––––––––––––––––––––
-    header#thank_you_header
+    header
       nav
       //
         HEADER END
         ––––––––––––––––––––––––––––––––––––––––––––––––––
-    .container
+    img#thank_you_header(src='http://splashcarwashes.com/wp-content/uploads/2017/07/thank_you_header.jpg')
+    .container     
       .content-wrapper
         .row
           .col-md-12
             .main-content
               h1.main_heading Thank You For Taking Our Survey!
+              h3.sub_heading Please enjoy this gift in appreciation.
               .entry-content
                 .vc_row.wpb_row.vc_row-fluid
                   .wpb_column.vc_column_container.vc_col-sm-12
@@ -605,17 +607,12 @@ html(lang='en-US')
                       .wpb_wrapper
                         .wpb_raw_code.wpb_content_element.wpb_raw_html
                           .wpb_wrapper
-                            img#coupon_image(src='http://splashcarwashes.com/wp-content/uploads/2017/07/3_off_coupon.png')
-                .vc_row.wpb_row.vc_row-fluid
-                  .wpb_column.vc_column_container.vc_col-sm-12
-                    .vc_column-inner
-                      .wpb_wrapper
-                        .wpb_text_column.wpb_content_element
-                          .wpb_wrapper
                             #survey_coupon_wrapper
-                              #survey_coupon_top_text Date Of Survey: 07/11/17
-                              #survey_coupon_bottom_text
-                                | Expires: 08/10/17
+                              #survey_date_wrapper
+                                #survey_coupon_top_text Date Of Survey: 07/11/17
+                                #survey_coupon_bottom_text
+                                  | Expires: 08/10/17
+                        button.btn.btn-primary#print_coupon_btn CLICK TO PRINT COUPON
                   // .entry-content
                 // .main-content
               // .col-md-12
