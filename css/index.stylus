@@ -51,13 +51,13 @@ html,body
 #survey_image
   background-size 100%
   background-repeat no-repeat
-  height 50%
+  max-height 50%
 
 #survey_date_wrapper
   background-color #0054A6
   text-align center
   color white
-  font-size 3em
+  font-size 2.5em
   margin auto
   padding 20px
   height auto
