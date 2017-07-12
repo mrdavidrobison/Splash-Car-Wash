@@ -43,12 +43,14 @@ html,body
   padding 0
 
 #survey_coupon_and_date
+  font-family Brandon Grotesque (Medium)
   border 2px dashed #0054A6
   max-width 500px
   margin auto
   margin-bottom 50px
 
 #survey_image
+  background-color #0054A6
   background-size 100%
   background-repeat no-repeat
   max-height 50%
