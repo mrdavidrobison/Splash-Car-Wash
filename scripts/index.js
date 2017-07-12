@@ -10,7 +10,15 @@ $(document).ready(function(){
   $("#survey_coupon_bottom_text").html("Expires: " + expDate);
 
   $("#print_coupon_btn").click(function(){
-    window.open('http://splashcarwashes.com/wp-content/uploads/2017/07/3_off_coupon.png');
+    $("#print_coupon_btn").hide();
+    $("header").hide();
+    $("footer").hide();
+    $("#thank_you_header").hide();
+    $("#splash-desktop-menu-fixed").hide();
+    $("#splash-desktop-menu-white").hide();
+    $("#splash-desktop-menu-blue").hide();
+    $("#survey_coupon_and_date").show();
+    window.print();
   });
 
 });
