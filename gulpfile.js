@@ -33,9 +33,11 @@ gulp.task('img', function(){
 });
 
 gulp.task('fonts', function(){
-  gulp.src('./fonts/*')
-  .pipe(gulp.dest('./dist'))
-  .pipe(browserSync.stream());
+  if ('./dist/*.otf' === false) {
+    gulp.src('./fonts/*')
+      .pipe(gulp.dest('./dist'))
+      .pipe(browserSync.stream());
+  }
 });
 
 gulp.task('sync', function() {
