@@ -1,13 +1,13 @@
+@font-face
+  font-family Brandon Grotesque (Medium)
+  src url(Brandon_med.otf) 
+
 html,body
     width 100%
     height 100%
     margin 0px
     padding 0px
     overflow-x hidden 
-
-@font-face
-  font-family Brandon Grotesque (Medium)
-  src url(Brandon_med.otf) 
 
 .white-nav-link:visited
   color #004990
@@ -142,7 +142,7 @@ html,body
     top 50%
     left 50%
     transform translate(-50%, -50%)
-    background url('http://splashcarwashes.com/wp-content/uploads/2017/07/thank_you_header.jpg')
+    background #004490
     background-repeat no-repeat
     background-size cover
     overflow scroll
@@ -152,7 +152,7 @@ html,body
 
 #survey-close2 
     height 32px
-    margin 10px 6px
+    margin 2em
     display block
     cursor pointer
 
@@ -167,22 +167,20 @@ html,body
 
 ul, li 
     list-style-type none
-    text-align left
 
 ul 
-    margin-left -40px
+    margin-left -30px
 
 #field_2_1, #field_2_2, #field_2_3, #field_2_4, #field_2_5, #field_2_6, #field_2_7 
-    margin-bottom 15px
+    margin-bottom 50px
 
 #gform_next_button_2_8 
     float right
-    margin 1em
-    padding-bottom 15px
+    margin 2em
     background-color #004990
     color white
     font-family arial
-    font-size 2em
+    font-size 1.8em
     border-color white
     border-radius 7px
     width 160px
@@ -196,6 +194,13 @@ ul
     color white
     font-size 1.6em
 
+#gf_progressbar_wrapper_2
+    padding-left .7em
+
 .gf_progressbar_title
-    margin-top 30px
+    margin-top 2em
     color white
+
+.gfield_label
+    font-size 1.2em
+    padding-bottom .8em
