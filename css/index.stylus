@@ -203,3 +203,16 @@ ul
 .gfield_label
     font-size 1.2em
     padding-bottom .8em
+
+#gform_previous_button_2_15
+    float right
+    margin 2em
+    background-color #004990
+    color white
+    font-family arial
+    font-size 1.8em
+    border-color white
+    border-radius 7px
+    width 160px
+    height 60px
+    outline none
