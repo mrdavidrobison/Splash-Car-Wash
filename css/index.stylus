@@ -1,42 +1,6 @@
-#survey-backdrop {
-    background: rgb(68, 68, 68);
-    background: rgba(68, 68, 68, 0.7);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1000;
-}
-
-#survey-wrapper {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #666;
-    width: 100%;
-    max-height: 100%;
-}
-
-#survey-close {
-    height: 32px;
-    margin: 10px 6px;
-    display: block;
-    cursor: pointer;
-}
-
-#survey-iframe {
-    border: 0;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-/************* brainstorm **************/
-
-ul,
-li {
-	list-style-type: none;
+.beginSurveyPage {
+    font-size: 14px;
+    line-height: 3em !important;
 }
 
 .surveyFieldSections {
@@ -44,15 +8,27 @@ li {
     margin-bottom: 30px;
 }
 
-.splashManagerContact {
-    padding-bottom: 50px;
+.locationDropdown {
+    padding-bottom: 40px;
 }
 
-.cityLocationTitle {
-    padding-top: 30px !important;
-    padding-bottom: 10px !important;
-    font-size: 35px;
-    border-bottom: 0px !important;
+#gf_progressbar_wrapper_2 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 70px;
+}
+
+.gf_progressbar_percentage.percentbar_blue.percentbar_0 {
+    margin: auto;
+}
+
+.splashManagerContact {
+    padding-bottom: 20px;
+    padding-top: 40px !important;
+}
+
+.gf_progressbar_percentage span {
+    font-size: 15px !important;
 }
 
 .descriptiveSectionHeader {
@@ -67,11 +43,9 @@ li {
 	background-color: #004990;
 	color: #fff;
 	font-family: arial;
-	font-size: 3em;
+	font-size: 1.5em;
 	border-color: #fff;
-	border-radius: 7px;
 	width: 160px !important;
-	height: 60px;
 	outline: none;
 }
 
@@ -81,11 +55,9 @@ li {
     background-color: #004990;
     color: #fff;
     font-family: arial;
-	font-size: 3em;
+	font-size: 1.5em;
     border-color: #fff;
-    border-radius: 7px;
     width: 160px !important;
-    height: 60px;
     outline: none;
 }
 
@@ -95,10 +67,8 @@ li {
 	background-color: #579E4E;
 	color: #fff;
 	font-family: arial;
-	font-size: 3em;
+	font-size: 1.5em;
 	border-color: #fff;
-	border-radius: 7px;
 	width: 160px !important;
-	height: 60px;
 	outline: none;
 }
